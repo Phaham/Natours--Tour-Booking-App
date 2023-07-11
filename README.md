@@ -1,4 +1,4 @@
 # A Tour Booking Website
 
 ## Deployed Version
-Live demo 👉 : https://boogiebites.onrender.com/
+Live demo 👉 : https://triphive-aqkd.onrender.com/
