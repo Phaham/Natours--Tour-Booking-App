@@ -13,14 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Phaham/Natours--Tour-Booking-App.git"
+    "url": "git+https://github.com/Phaham/TripHive-Travel-planner.git"
   },
   "author": "Phaham",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Phaham/Natours--Tour-Booking-App/issues"
+    "url": "https://github.com/Phaham/TripHive-Travel-planner/issues"
   },
-  "homepage": "https://github.com/Phaham/Natours--Tour-Booking-App#readme",
+  "homepage": "https://github.com/Phaham/TripHive-Travel-planner#readme",
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
     "axios": "^1.2.2",
