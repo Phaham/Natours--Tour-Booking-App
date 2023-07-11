@@ -60,7 +60,7 @@ app.post(
 
 // Body parser, reading data from body into req.body
 app.use((req, res, next) => {
-  if (req.originalUrl === '/webhook') {
+  if (req.originalUrl === '/webhook-checkout') {
     next();
   } else {
     express.json({ limit: "10kb" })(req, res, next);
