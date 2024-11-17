@@ -154,4 +154,3 @@ TripHive-Travel-planner/
    git push origin feature/YourFeature
    ```
 5. **Open a Pull Request**.
-```
