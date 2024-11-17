@@ -47,39 +47,39 @@ Check out the live demo: [TripHive Live](https://triphive-aqkd.onrender.com/)
    git clone https://github.com/Phaham/TripHive-Travel-planner.git
    cd TripHive-Travel-planner
    ```
-## 🚀 Installation
+2. 🚀 Installation
 
-### Install dependencies:
+- Install dependencies:
 ```
 npm install
 ```
 
-### Create a `.env` file in the root directory and add the required environment variables (see [Environment Variables](#environment-variables)).
+3. Create a `.env` file in the root directory and add the required environment variables (see [Environment Variables](#environment-variables)).
 
-### Start the MongoDB server if you're using a local MongoDB instance:
+4. Start the MongoDB server if you're using a local MongoDB instance:
 ```
 mongod
 ```
 
-### Build frontend assets:
+5. Build frontend assets:
 ```
 npm run build:js
 ```
 
-### Start the development server:
+6. Start the development server:
 ```
 npm run dev
 ```
 
 The application will be running at [http://localhost:3000](http://localhost:3000).
 
-## 📜 Usage
-1. Open the browser and navigate to [http://localhost:3000](http://localhost:3000).
-2. Sign up or log in as a user.
-3. Browse available tours, make bookings, and pay securely using Stripe.
-4. Admin users can access the admin panel to manage tours and bookings.
+7. 📜 Usage
+- Open the browser and navigate to [http://localhost:3000](http://localhost:3000).
+- Sign up or log in as a user.
+- Browse available tours, make bookings, and pay securely using Stripe.
+- Admin users can access the admin panel to manage tours and bookings.
 
-## 📝 Scripts
+8. 📝 Scripts
 Here are some useful commands to run during development:
 
 | Command            | Description                                      |
@@ -90,10 +90,10 @@ Here are some useful commands to run during development:
 | `npm run watch:js` | Watch for changes in frontend assets using Parcel|
 | `npm run debug`    | Start the server with ndb debugger               |
 
-## 🔧 Environment Variables
+9. 🔧 Environment Variables
 Create a `.env` file in the root of your project and add the following:
 
-```makefile
+```
 NODE_ENV=development | production
 PORT=3000
 DATABASE=<your-mongodb-connection-string>
@@ -108,7 +108,7 @@ EMAIL_PORT=<your-email-port>
 STRIPE_SECRET_KEY=<your-stripe-secret-key>
 ```
 
-## 📁 Folder Structure
+10. 📁 Folder Structure
 ```
 TripHive-Travel-planner/
 ├── controllers/         # Request handlers
@@ -123,23 +123,23 @@ TripHive-Travel-planner/
 └── .env                 # Environment variables
 ```
 
-## 📚 API Endpoints
+11. 📚 API Endpoints
 
-### **Authentication**
+#### **Authentication**
 - `POST /api/v1/users/signup` - Sign up a new user
 - `POST /api/v1/users/login` - Log in a user
 - `POST /api/v1/users/forgotPassword` - Request password reset
 
-### **Tours**
+#### **Tours**
 - `GET /api/v1/tours` - Get all tours
 - `GET /api/v1/tours/:id` - Get a tour by ID
 - `POST /api/v1/tours` - Create a new tour (Admin)
 - `PATCH /api/v1/tours/:id` - Update a tour (Admin)
 
-### **Bookings**
+#### **Bookings**
 - `POST /api/v1/bookings/checkout-session/:tourId` - Create Stripe checkout session
 
-## 🤝 Contributing
+12. 🤝 Contributing
 Contributions are welcome! Please follow these steps:
 
 1. **Fork** the project.
