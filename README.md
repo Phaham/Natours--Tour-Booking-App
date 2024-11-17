@@ -139,8 +139,8 @@ TripHive-Travel-planner/
 #### **Bookings**
 - `POST /api/v1/bookings/checkout-session/:tourId` - Create Stripe checkout session
 
-12. 🤝 Contributing
-Contributions are welcome! Please follow these steps:
+#### 🤝 Contributing
+- Contributions are welcome! Please follow these steps:
 
 1. **Fork** the project.
 2. **Create** your feature branch:
