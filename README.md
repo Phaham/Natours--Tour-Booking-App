@@ -157,5 +157,3 @@ TripHive-Travel-planner/
    ```
 5. **Open a Pull Request**.
 ```
-
-This Markdown format includes clear headings, syntax highlighting, and organized sections for better readability. Let me know if you need further adjustments!
