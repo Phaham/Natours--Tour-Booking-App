@@ -47,9 +47,6 @@ Check out the live demo: [TripHive Live](https://triphive-aqkd.onrender.com/)
    git clone https://github.com/Phaham/TripHive-Travel-planner.git
    cd TripHive-Travel-planner
    ```
-Here is the provided content formatted in Markdown:
-
-```
 ## 🚀 Installation
 
 ### Install dependencies:
