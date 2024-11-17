@@ -133,8 +133,6 @@ TripHive-Travel-planner/
 #### **Tours**
 - `GET /api/v1/tours` - Get all tours
 - `GET /api/v1/tours/:id` - Get a tour by ID
-- `POST /api/v1/tours` - Create a new tour (Admin)
-- `PATCH /api/v1/tours/:id` - Update a tour (Admin)
 
 #### **Bookings**
 - `POST /api/v1/bookings/checkout-session/:tourId` - Create Stripe checkout session
