@@ -3,7 +3,7 @@
 **TripHive** is a full-stack web application for booking tour plans. It allows users to browse and book various tours, make secure payments using the Stripe payment gateway. The app is built using Node.js, Express, MongoDB, and includes essential features like user authentication, Stripe integration, and an admin panel for managing tours.
 
 ## 🎥 Demo
-Check out the live demo: [TripHive Live]([https://triphive.example.com](https://triphive-aqkd.onrender.com/))
+Check out the live demo: [TripHive Live](https://triphive-aqkd.onrender.com/)
 
 ## ✨ Features
 - **User Authentication**: Sign up, login, password reset.
